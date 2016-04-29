@@ -1,0 +1,10 @@
+test = sets.Set()
+test.__add__(2)
+test.__add__(32)
+test.__add__(8765432)
+print(test)
+print(test.__size__())
+if test.__contains__(2):
+    print("It works")
+test.__remove__(32)
+print(test)
